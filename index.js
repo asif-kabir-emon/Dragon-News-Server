@@ -9,7 +9,7 @@ const categories = require("./data/categories.json");
 const news = require("./data/news.json");
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("News API");
 });
 
 app.get("/new-categories", (req, res) => {
